@@ -1,0 +1,606 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100&family=Josefin+Sans:ital,wght@0,400;1,500&family=Outfit:wght@300;400;500;600;700;800&family=Permanent+Marker&family=Roboto+Slab:wght@500&family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Alata", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* ********Navabr Styling******* */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 75%;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  padding: 15px 0;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 0px 50px;
+}
+.navbar ul li {
+  list-style: none;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navbar ul li a {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: #111827;
+}
+.navbar ul li a:hover {
+  color: #5c351c;
+}
+
+/* *******Logo image Styling******* */
+.logoImg {
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  filter: saturate(250%);
+  text-transform: uppercase;
+}
+.logoImg span {
+  color: #ff6f00;
+}
+/* *******Home Section Styling******* */
+.HeroImg {
+  object-fit: cover;
+  height: 750px;
+  width: 100%;
+  filter: saturate(100%);
+}
+.HomeContant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  right: 35%;
+  text-align: center;
+  transform: translate(50%, 50%);
+}
+.HomeContant p {
+  max-width: 23vw;
+  margin: 5px 0;
+  line-height: 35px;
+  color: #374151;
+  margin: auto;
+}
+.HomeContant h1 {
+  font-size: 3rem;
+  color: #111827;
+  margin-bottom: 2px;
+}
+.HomeContant span {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #1f2937;
+}
+.HomeContant button {
+  margin: auto;
+  padding: 7px 12px;
+  margin-top: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.HomeContant button:hover {
+  color: #000000;
+  background-color: #e69f4f;
+  font-weight: 400;
+}
+/* *******About Section Styling******* */
+.About-Section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 58px;
+  max-width: 60%;
+  margin: auto;
+}
+.About-Section h2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-top: 42px;
+  color: #111827;
+}
+.SpanText1 {
+  color: #ff6f00;
+  margin: 0 5px;
+}
+.SpanText2 {
+  color: #1f2937;
+  margin: 10px 0;
+}
+.About-Img {
+  margin: auto;
+  height: 250px;
+  width: 200px;
+  background-color: aqua;
+  border: 4px solid black;
+  background: transparent;
+  margin-top: 70px;
+  filter: saturate(350%);
+}
+.CharacterImg {
+  height: 250px;
+  width: 100%;
+  margin-top: -40px;
+  margin-left: -81px;
+  filter: saturate(50%);
+}
+.AboutPara {
+  margin: 20px 0;
+}
+.AboutPara h3 {
+  letter-spacing: 1px;
+}
+.AboutPara p {
+  margin: auto;
+  max-width: 81%;
+  line-height: 36px;
+  margin-top: 10px;
+  color: #374151;
+}
+/* *******Service Section Styling******* */
+.Service-Section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+}
+.Service-Section span {
+  color: #ff6f00;
+}
+.Service-Section h2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2.5px;
+  margin-top: 42px;
+  color: #111827;
+}
+.Service-Section p {
+  margin: 10px 0;
+  color: #1f2937;
+}
+.Boxs {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 74px 0;
+}
+.Box {
+  height: 537px;
+  width: 100%;
+  box-shadow: rgb(0 0 0 / 10%) 0px 2px 2px 0px, rgb(0 0 0 / 19%) 0px 3px 5px 0px;
+  background: transparent;
+  padding: 20px;
+}
+.ServiceImg {
+  position: relative;
+  top: 17px;
+  height: 50%;
+  width: 80%;
+  filter: saturate(100%);
+}
+.ServiceImg1 {
+  position: relative;
+  top: 17px;
+  height: 50%;
+  width: 100%;
+  filter: saturate(100%);
+}
+.ServiceImg2 {
+  position: relative;
+  top: 17px;
+  height: 50%;
+  width: 100%;
+  filter: saturate(100%);
+}
+.BoxsParaColor p {
+  color: #4b5563;
+  position: relative;
+  line-height: 36px;
+  /* font-family: "Libre Franklin"; */
+  font-size: 14px;
+}
+.Boxs h3 {
+  color: #1f2937;
+  letter-spacing: 0.5px;
+}
+/* *******Contact Section Styling******* */
+.Contact-Section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+}
+.Contact-Section h2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2.5px;
+  margin-top: 42px;
+  color: #111827;
+}
+.Contact-Section h2 span {
+  color: #ff6f00;
+}
+.Contact-Section p {
+  margin: 12px 0;
+  color: #1f2937;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 13px;
+  margin-bottom: 16px;
+  resize: vertical;
+  letter-spacing: 0.3px;
+}
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 13px;
+  margin-bottom: 16px;
+  resize: vertical;
+  letter-spacing: 0.3px;
+}
+input[type="submit"] {
+  background-color: #ff6f00;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #f78b39;
+  margin-top: 13px;
+}
+.Contact-Content {
+  margin: 30px 0;
+}
+/* *******Footer Section Styling******* */
+.Footer-Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.Footer-Section a {
+  list-style: none;
+  text-decoration: none;
+  margin: 0 2px;
+  color: #ff6f00;
+}
+
+/* Media quries */
+
+@media only screen and (max-width: 600px) {
+  /* *******Navbar Section Styling******* */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0;
+  }
+  .navbar ul {
+    margin: 20px 10px;
+    gap: 25px;
+  }
+  .navbar ul li {
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  /* *******Logo Styling******* */
+  .logoImg {
+    font-size: 1.5rem;
+    margin-top: 8px;
+  }
+  /* *******Home Section Styling******* */
+  .HeroImg {
+    height: 276px;
+    object-fit: contain;
+  }
+
+  .HomeContant {
+    top: 12%;
+    margin: auto;
+  }
+  .HomeContant p {
+    max-width: 36vw;
+    font-size: 9px;
+    margin: 5px 0;
+    line-height: 19px;
+    margin: auto;
+  }
+  .HomeContant h1 {
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+  .HomeContant span {
+    font-size: 9px;
+    margin: 5px 0;
+  }
+  .HomeContant button {
+    padding: 2px 5px;
+    margin-top: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 6px;
+  }
+  /* *******About Section Styling******* */
+  .About-Section h2 {
+    font-size: 23px;
+    margin-top: 20px;
+  }
+  .SpanText1 {
+    margin: 0 5px;
+  }
+  .SpanText2 {
+    max-width: 86%;
+    font-size: 12px;
+    margin-top: 7px;
+    margin: auto;
+  }
+  .About-Img {
+    height: 210px;
+    width: 150px;
+    margin-top: 50px;
+  }
+
+  .CharacterImg {
+    height: 210px;
+    width: 88%;
+    margin-top: -35px;
+    margin-left: -58px;
+  }
+
+  .AboutPara {
+    margin: 20px 0;
+  }
+  .AboutPara h3 {
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  .AboutPara p {
+    line-height: 31px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .Boxs {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* *******Service Section Styling******* */
+  .Service-Section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 70%;
+  }
+
+  .Service-Section h2 {
+    font-size: 23px;
+    margin-top: 20px;
+  }
+  .Service-Section p {
+    margin-top: 5px;
+    max-width: 82%;
+    font-size: 12px;
+    margin-top: 7px;
+    line-height: 21px;
+    margin: auto;
+  }
+  .Boxs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 48px 0;
+  }
+  .Box {
+    height: 537px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .ServiceImg {
+    top: 17px;
+    height: 40%;
+    width: 70%;
+  }
+  .ServiceImg1 {
+    top: 17px;
+    height: 40%;
+    width: 70%;
+  }
+  .ServiceImg2 {
+    top: 17px;
+    height: 40%;
+    width: 70%;
+  }
+  .BoxsParaColor p {
+    line-height: 34px;
+    font-size: 13px;
+    margin: auto;
+  }
+
+  .Boxs h3 {
+    letter-spacing: 0.5px;
+    font-size: 15px;
+  }
+  .Contact-Section p {
+    margin-top: 5px;
+    max-width: 82%;
+    font-size: 12px;
+    margin-top: 7px;
+    line-height: 21px;
+    margin: auto;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* *******Home Section Styling******* */
+  .HeroImg {
+    width: 100%;
+    height: 547px;
+    object-fit: contain;
+    object-position: 80% 100%;
+  }
+  .HomeContant {
+    top: 15%;
+    margin: auto;
+  }
+  .HomeContant p {
+    max-width: 33vw;
+    font-size: 11px;
+    margin: 5px 0;
+    line-height: 26px;
+    margin: auto;
+  }
+  .HomeContant h1 {
+    font-size: 30px;
+    margin-bottom: 2px;
+  }
+  .HomeContant span {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  .HomeContant button {
+    margin: auto;
+    padding: 4px 5px;
+    margin-top: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 8px;
+  }
+  /* *******About Section Styling******* */
+  .SpanText1 {
+    margin: 0 5px;
+  }
+  .SpanText2 {
+    margin-top: 5px;
+    max-width: 80%;
+    margin: auto;
+    font-size: 16px;
+    margin-top: 7px;
+  }
+  .About-Img {
+    margin: auto;
+    height: 210px;
+    width: 150px;
+    margin-top: 50px;
+  }
+
+  .CharacterImg {
+    height: 225px;
+    width: 100%;
+    margin-top: -35px;
+    margin-left: -58px;
+  }
+
+  .AboutPara {
+    margin: 20px 0;
+  }
+  .AboutPara h3 {
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+  .AboutPara p {
+    line-height: 38px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  /* *******Service Section Styling******* */
+  .Service-Section {
+    flex-direction: column;
+    text-align: center;
+    max-width: 70%;
+  }
+
+  .Service-Section h2 {
+    font-size: 2rem;
+    letter-spacing: 2.5px;
+    margin-top: 42px;
+  }
+  .Service-Section p {
+    margin: 10px 0;
+  }
+  .Boxs {
+    flex-direction: column;
+    gap: 40px;
+    margin: 70px 0;
+  }
+  .Box {
+    height: 537px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .ServiceImg {
+    top: 17px;
+    height: 60%;
+    width: 80%;
+  }
+  .ServiceImg1 {
+    top: 17px;
+    height: 60%;
+    width: 80%;
+  }
+  .ServiceImg2 {
+    top: 17px;
+    height: 60%;
+    width: 80%;
+  }
+  .BoxsParaColor p {
+    line-height: 36px;
+    font-size: 14px;
+  }
+
+  .Boxs h3 {
+    letter-spacing: 0.5px;
+  }
+}
